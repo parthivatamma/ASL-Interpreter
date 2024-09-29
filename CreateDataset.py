@@ -52,7 +52,7 @@ else:
                             data_aux.append(x)
                             data_aux.append(y)
 
-                    # Pad landmarks to a fixed length (84 in this case)
+                    # Pad landmarks to a fixed length 
                     data_aux = pad_landmarks(data_aux, target_length=84)
 
                     print(f"Landmarks detected and padded: {len(data_aux)} coordinates")
