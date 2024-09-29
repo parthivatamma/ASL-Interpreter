@@ -7,7 +7,7 @@ We have had deaf friends who had difficulty communicating with others who don't 
 Our program utilizes real-time video data, detects for hands, and interprets the symbol the user is trying to display.
 
 ## How we built it
-Using Mediapipe's hand landmarks detection library, we used a dataset we found online and trained a machine learning model with open-cv to recognize different hand signs. 
+Using Mediapipe's hand landmarks detection library, we used a dataset we found online (https://datasets.cms.waikato.ac.nz/ufdl/american-sign-language-letters/) and trained a machine learning model with open-cv to recognize different hand signs. 
 We first created and tested a quick program to see if we could get the libraries running and recognizing hands through video. We then created a dataset using the data that we already had. After, we trained and tested the machine learning model and then implemented it into a simple program that could guess what symbols users were putting up in real-time.
 
 ## Challenges we ran into
